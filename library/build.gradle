@@ -1,5 +1,8 @@
 apply plugin: 'android-library'
 apply plugin: 'android-maven'
+apply plugin: 'com.github.dcendents.android-maven' 
+
+group='com.github.ygorgasparin'
 
 dependencies {
     provided files('libs/nineoldandroids-2.2.0.jar')
